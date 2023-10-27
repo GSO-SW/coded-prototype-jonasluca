@@ -1,0 +1,12 @@
+.background {
+  background-image: url("../assets/Login.jpeg");
+  background-size: cover; /* Das Bild soll den gesamten Hintergrund abdecken */
+  background-repeat: no-repeat; /* Das Bild nicht wiederholen */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90.7vh;  /* irgendwann nochmal richtig machen*/
+}
