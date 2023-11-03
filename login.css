@@ -1,0 +1,37 @@
+/* Grundstyles, die für alle Bildschirmgrößen gelten */
+
+.background {
+    background-image: url("../assets/Login.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 91.1vh;
+    padding: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin: 0;
+  }
+  
+  .card-body {
+    display: grid;
+  }
+  
+  /* Media Query für Bildschirme mit einer maximalen Breite von 768px (z. B. Smartphones) */
+  
+  @media screen and (max-width: 768px) {
+    .card-body {
+      width: 100; /* Passen Sie die Höhe für mobile Bildschirme an */
+      height: 60;
+    }
+  }
+  
