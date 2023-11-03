@@ -1,34 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Neu / Anlegen</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</head>
-<body>
-    <div class="container">
-        <div class="card mb-3">
-            <div class="card-header">
-                Text
-            </div>
-            <div class="card-body">
-                <textarea class="form-control w-100" rows="15">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium nemo non repudiandae! Animi amet quam, nihil rerum voluptatem ut! Similique error nemo impedit quae quas sit odit delectus ut explicabo.</textarea>
-            </div>
-        </div>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style/main.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonym
+      ous"
+    ></script>
+  </head>
+  <body>
+    <div class="header">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <img src="assets/2560px-Logo_IHK_Koeln.png" class="header-img" />
 
-        <div class="card mb-3">
-            <div class="card-header">
-                Text
-            </div>
-            <div class="card-body">
-                <textarea class="form-control w-100" rows="15">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas inventore tempora nisi nemo, praesentium iste voluptatibus quasi! Error, quo! Delectus, ducimus doloribus. Temporibus quaerat, dicta ullam excepturi doloribus vero hic.</textarea>
-            </div>
+          <div class="m-1 float-end">
+            <i class="fa fa-user"></i>
+            <span class="m-1">Max Mustermann</span>
+            <a class="btn btn-primary p-1" href="login.html"><i class="fa fa-sign-out"></i></a>
+          </div>
         </div>
-
-        <a class="btn btn-primary" href="/home.html">Anlegen</a>
+      </nav>
     </div>
-</body>
+    <div class="container-fluid">
+      <h1 class="mb-2">Neuen Nachweis anlegen</h1>
+      <div class="row m-2">
+        <div class="col-2">
+          <label>Ausbildungsjahr</label>
+          <select class="form-select w-100 mb-2">
+            <option>2021</option>
+            <option>2022</option>
+            <option selected>2023</option>
+          </select>
+
+          <label>Ausbilder</label>
+          <input type="text" class="form-control mb-2" placeholder="Ausbilder@Betrieb.de"/>
+
+          <label>Abteilung</label>
+          <input type="text" class="form-control mb-2" placeholder="Softwareentwicklung"/>
+        </div>
+      <div class="col">
+        <label>Betriebliche Aktivitäten</label>
+        <textarea class="form-control w-100" rows="15">
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium nemo non repudiandae! Animi amet quam, nihil rerum voluptatem ut! Similique error nemo impedit quae quas sit odit delectus ut explicabo.</textarea
+      >
+    </div>
+    <div class="col"> 
+      <label>Schulische Aktivitäten</label>
+      <textarea class="form-control w-100" rows="15">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas inventore tempora nisi nemo, praesentium iste voluptatibus quasi! Error, quo! Delectus, ducimus doloribus. Temporibus quaerat, dicta ullam excepturi doloribus vero hic.</textarea
+      >
+    </div>
+  </div>
+  <a class="btn btn-primary float-end m-2" href="/home.html">Neuen Nachweis anlegen</a>
+</div>
+  </body>
 </html>
