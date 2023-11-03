@@ -1,1 +1,16 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/xVoVjnAV)
+# Berichtsheftool
+
+## Autoren
+
+- Jonas Methfessel
+- Luca Mienert
+
+## Technologien
+
+- Bootstrap 5.3.2
+- FontAwesome 6.4.2
+
+## Start
+
+Zum starten wird nur ein Webbrowser verwendet. Hierzu startet man die [index.html](index.html).
+Alternativ startet man die [index.html](index.html) mit dem `LiveServer`-Plugin von Visual Studio Code.
