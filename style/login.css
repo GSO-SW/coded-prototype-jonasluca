@@ -18,9 +18,8 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
   margin: 0%;
-} 
-
-.card-body {
-    display: grid;
 }
 
+.card-body {
+  display: grid;
+}
