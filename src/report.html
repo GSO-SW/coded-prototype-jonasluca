@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <img src="assets/logo.png" class="header-img" />
+
+                <div class="m-1 float-end">
+                    <i class="fa fa-user"></i>
+                    <span class="m-1">Max Mustermann</span>
+                    <a class="btn btn-primary p-1" href="login.html"><i class="fa fa-sign-out"></i></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-fluid">
+        <h1 class="mb-2">Neuen Nachweis anlegen</h1>
+
+        <div class="row row-cols-3 m-2">
+            <div class="col">
+                <label>Ausbildungsjahr</label>
+                <select class="form-select w-100 mb-2">
+                      <option>2021</option>
+                      <option>2022</option>
+                      <option selected>2023</option>
+                </select>
+
+                <label>Ausbilder</label>
+                <input type="text" class="form-control mb-2" placeholder="Ausbilder@Betrieb.de"/>
+
+                <label>Abteilung</label>
+                <input type="text" class="form-control mb-2" placeholder="Softwareentwicklung"/>
+            </div>
+
+            <div class="col">
+                <label>Betriebliche Aktivitäten</label>
+                <textarea class="form-control w-100" rows="15">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium nemo non repudiandae! Animi amet quam, nihil rerum voluptatem ut! Similique error nemo impedit quae quas sit odit delectus ut explicabo.</textarea>
+            </div>
+
+            <div class="col"> 
+                <label>Schulische Aktivitäten</label>
+                <textarea class="form-control w-100" rows="15">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas inventore tempora nisi nemo, praesentium iste voluptatibus quasi! Error, quo! Delectus, ducimus doloribus. Temporibus quaerat, dicta ullam excepturi doloribus vero hic.</textarea>
+            </div>
+
+        </div>
+        <a class="btn btn-primary float-end m-2" href="home.html">Neuen Nachweis anlegen</a>
+        <a class="btn btn-primary float-end m-2" href="home.html"><i class="fa fa-arrow-left"></i>Zurück</a>
+    </div>
+</body>
+</html>
